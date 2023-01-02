@@ -4,6 +4,7 @@ const app = Vue.createApp({
       // interpolation
       title: 'Task App',
       goals: [],
+      enigmaLink: 'https://enigmacamp.com',
       enteredValue: ''
     };
   },
