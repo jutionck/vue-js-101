@@ -6,7 +6,8 @@ const app = Vue.createApp({
       goals: [],
       enigmaLink: 'https://enigmacamp.com',
       enteredValue: '',
-      counter: 0
+      counter: 0,
+      name: ''
     };
   },
   // methods
@@ -22,6 +23,9 @@ const app = Vue.createApp({
       if (this.counter > 0) {
         this.counter--;
       }
+    },
+    setName(event) {
+      this.name = event.target.value;
     }
   }
 });
