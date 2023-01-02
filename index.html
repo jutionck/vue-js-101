@@ -11,8 +11,8 @@
     
     <div id="app">
       <div>
-        <label for="goal">Task</label>
-        <input type="text" id="goal" v-model="enteredValue">
+        <h4 class="title">{{ title }}</h4>
+        <input type="text" id="goal" v-model="enteredValue" placeholder="Task">
         <button class="btn dark" v-on:click="addGoal">Add Task</button>
       </div>
         <ul>

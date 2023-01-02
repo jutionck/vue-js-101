@@ -1,6 +1,8 @@
-Vue.createApp({
+const app = Vue.createApp({
   data() {
     return {
+      // interpolation
+      title: 'Task App',
       goals: [],
       enteredValue: ''
     };
@@ -11,4 +13,6 @@ Vue.createApp({
       this.enteredValue = '';
     }
   }
-}).mount('#app')
+});
+
+app.mount('#app');

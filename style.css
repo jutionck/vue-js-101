@@ -17,15 +17,19 @@ body {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
 }
 
-label, input {
-  font-weight: bold;
-}
-
 input[type=text] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
+  font-size: 1rem;
+}
+
+.title {
+  font-size: 2rem;
+  text-align: center;
+  color: #003d;
+  text-transform: uppercase;
 }
 
 .btn {
@@ -36,6 +40,7 @@ input[type=text] {
   font-size: 16px;
   cursor: pointer;
   width: 100%;
+  text-transform: uppercase;
 }
 
 .dark {
